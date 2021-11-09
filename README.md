@@ -1,5 +1,6 @@
 # ORBIS
 Extracting German firm info from ORBIS (Samuel taking over, Jason handing over)
+Orbis folder: /project/FMC_Data/Orbis_Historical
 
 **Task:**
 Kilian Huber  1:45 PM
