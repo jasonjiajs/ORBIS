@@ -21,7 +21,8 @@ Hi @Jason Jia, I have shared with you a Box folder called "BvD Firm Data." There
 
 **Previous Work:**
 - Compiling information and understanding the data 
-- Progress made on downloading the datasets. The previous RP did it using chunky on Stata, and I've tried that. It works but takes a long time + is buggy, probably because it's based on a Stata package. The way I was exploring was: to 1) unzip the file and extract the .txt files on Mercury, 2) split it into smaller chunks, 3) convert it in .csv, 4) do filtering and merging, and 5) compile it all together.
+- The only, but major pain point of this task: the datasets are extremely, extremely large. Like 50GB large in a few cases. So you can't view or edit files in a normal way, moving or downloading takes a long time, and even storing them becomes an issue!
+- Progress made on downloading the datasets. The previous RP did it using chunky on Stata, and I've tried that. It works but takes a long time + is buggy, probably because it's based on a Stata package. Feel free to try it out though! The way I was exploring was: to 1) unzip the file and extract the .txt files on Mercury, 2) split it into smaller chunks, 3) convert it in .csv, 4) do filtering and merging, and 5) compile it all together.
 - To unzip files: I installed 7z on Mercury, because Mercury doesn't by itself have any unzipping program. Consider the following codes to download 7z, given by Ernesto Vargas, a Data Scientist at Booth:
 
 ```
