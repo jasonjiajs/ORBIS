@@ -1,0 +1,10 @@
+﻿BvD ID number	NAME
+RU94102445	Joint-Stock Company Vtb Capital
+US710415188	Walmart Inc.
+SG196800312N	Exxonmobil Asia Pacific Pte. Ltd.
+GB04366849	Royal Dutch Shell Plc
+HK0000126873	China Petroleum & Chemical Corporation
+CN30086PC	China petroleum & chemical corporation
+NL34179503	ROYAL DUTCH SHELL plc
+SA30947GS	Saudi Arabia Oil Company (Saudi Aramco) Saudi Joint Stock Company
+CN30081PC	Petro china company limited
