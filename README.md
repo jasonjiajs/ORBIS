@@ -53,13 +53,15 @@ tar -xvjf download
 ```
 
 - To split files, consider the following codes (from my own experimentation):
+
 ```
 split -l 100000 --verbose BvD_ID_and_Name.txt BvD_ID_and_Name_
 split -l 100000 -a 5 -d --verbose All_addresses.txt All_addresses_
 ```
 
-Some other codes (from Ernesto);
-Alternatively, you can use your ~/.bash_profile to create an alias, or to add the folder to your path. Either approach allows you to use the `7z` command outside of the directory where you installed it. For example, you can add the line:
+- Some other codes (from Ernesto):
+
+"Alternatively, you can use your ~/.bash_profile to create an alias, or to add the folder to your path. Either approach allows you to use the `7z` command outside of the directory where you installed it. For example, you can add the line:
 ```
 alias 7z=/home/jasonjia/Software/p7zip/p7zip_16.02/bin/7z
 ```
@@ -67,7 +69,7 @@ OR, you can add the following line to add the install directory to your PATH:
 ```
 PATH=/home/jasonjia/Software/p7zip/p7zip_16.02/bin:${PATH}
 ```
-In either case, you can then simply use the `7z` command from anywhere. Note that after editing your ~/.bash_profile, you will have to log out and log back in once so that the changes take effect.
+In either case, you can then simply use the `7z` command from anywhere. Note that after editing your ~/.bash_profile, you will have to log out and log back in once so that the changes take effect."
 
 
 **Steps (roughly)**
