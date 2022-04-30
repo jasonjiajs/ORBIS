@@ -59,7 +59,13 @@ tar -xvjf download
 ```
 split -l 100000 --verbose BvD_ID_and_Name.txt BvD_ID_and_Name_
 split -l 100000 -a 5 -d --verbose All_addresses.txt All_addresses_
+split -l 1000000 -a 3 -d --verbose Contact_info.txt contact_info_
 ```
+
+-l 100000: split every 100000 lines
+-a 5: suffix length = 5
+-d: change suffix from alphabets (default) to numeric
+--verbose: gives a diagnostic message
 
 - Some other codes (from Ernesto):
 
